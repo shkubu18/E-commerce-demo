@@ -1,0 +1,84 @@
+/* Detail-page-name style */
+
+.detail-page-name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    transition: all 1s ease;
+}
+
+.detail-page-name h1 {
+    font-size: 40px;
+}
+
+/* Detail-page-name style */
+
+
+/* Headphone list style */
+
+.products-container {
+    margin-top: 70px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.image-container img {
+    height: 560px;
+    border-radius: 10px;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+.product-description.mark1 {
+    padding: 0;
+    padding-right: 120px;
+}
+
+.product-description span {
+    color: var(--orange);
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+}
+
+.product-description h1 {
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.product-description p {
+    color: rgb(163, 163, 163);
+    padding-bottom: 30px;
+}
+
+.product-description button {
+    padding-inline: 35px;
+    padding-block: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.product-description button:hover {
+    background-color: #f3b18d;
+}
+
+/* And off headphone list style */

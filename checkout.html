@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/checkout-page.css">
+    <link rel="stylesheet" href="styles/responsive-styles.css">
+    <title>Audiophile shop - checkout</title>
+</head>
+
+<body>
+    <section class="first-section">
+        <header>
+            <div class="header-line"></div>
+            <div class="menu">
+                <img class="icon-close-menu" src="assets/icons/icon-close-menu.svg" alt="icon-close-menu">
+                <img class="icon-open-menu" src="assets/icons/icon-hamburger.svg" alt="icon-hamburger">
+            </div>
+            <div class="website-logo">
+                <a href="index.html">
+                    <h1>audiophile</h1>
+                </a>
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <a id="home-link" href="index.html">HOME</a>
+                    <a id="headphone-link" href="headphone.html">HEADPHONES</a>
+                    <a id="speaker-link" href="speaker.html">SPEAKERS</a>
+                    <a id="earphone-link" href="earphone.html">EARPHONES</a>
+                </div>
+            </nav>
+            <div class="shopping-cart">
+                <img src="assets/icons/cart.svg" alt="shopping-cart-icon">
+            </div>
+        </header>
+        <div class="menu-cards-container">
+            <a href="headphone.html">
+                <div id="menu-headphone-card" class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="assets/imgs/headphone.png" alt="headphone">
+                    </div>
+                    <span class="description">HEADPHONES</span>
+                    <div class="detail-link">
+                        <span id="headphone-span">SHOP</span>
+                        <img src="assets/icons/angle-right-solid.svg" alt="angle-right-icon">
+                    </div>
+                </div>
+            </a>
+            <a href="speaker.html">
+                <div id="menu-speaker-card" class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="assets/imgs/speaker1.png" alt="speaker">
+                    </div>
+                    <span class="description">SPEAKERS</span>
+                    <div class="detail-link">
+                        <span id="speaker-span">SHOP</span>
+                        <img src="assets/icons/angle-right-solid.svg" alt="angle-right-icon">
+                    </div>
+                </div>
+            </a>
+            <a href="earphone.html">
+                <div id="menu-earphone-card" class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="assets/imgs/earphone.png" alt="headphone">
+                    </div>
+                    <span class="description">EARPHONES</span>
+                    <div class="detail-link">
+                        <span id="earphone-span">SHOP</span>
+                        <img src="assets/icons/angle-right-solid.svg" alt="angle-right-icon">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="go-back">
+            <a href="#">Go Back</a>
+        </div>
+        <div class="checkout-container">
+            <div class="checkout">
+                <h1>CHECKOUT</h1>
+                <h3>BILLING DETAILS</h3>
+                <div class="billing-details">
+                    <div class="userName">
+                        <div class="labels">
+                            <label class="name-label" for="name">Name</label><label
+                                class="name-input-warning warning">Field
+                                cannot be empty</label>
+                        </div>
+                        <input type="text" class="name-input" name="name" id="name" placeholder="Alexei Ward" required>
+                    </div>
+                    <div class="email">
+                        <div class="labels">
+                            <label class="email-label" for="email">Email</label><label
+                                class="email-input-warning warning">Field
+                                cannot be empty</label>
+                        </div>
+                        <input type="email" class="email-input" name="email" id="email" placeholder="alexei@gmail.com"
+                            required>
+                    </div>
+                    <div class="phone">
+                        <div class="labels">
+                            <label class="phone-label" for="phone-number">Phone Number</label><label
+                                class="phone-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="number" class="phone-input" name="phone-number" id="phone-number"
+                            placeholder="+1 202-555-0136" required>
+                    </div>
+                </div>
+                <h3 class="shipping-info-heading">SHIPPING INFO</h3>
+                <div class="shipping-info">
+                    <div class="address">
+                        <div class="labels">
+                            <label class="address-label" for="address">Address</label><label
+                                class="address-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="text" class="address-input" name="address" id="address"
+                            placeholder="1137 Williams Avenue" required>
+                    </div>
+                    <div class="zipcode">
+                        <div class="labels">
+                            <label class="zipcode-label" for="zipcode">ZIP Code</label><label
+                                class="zipcode-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="number" class="zipcode-input" name="zipcode" id="zipcode" placeholder="10001"
+                            required>
+                    </div>
+                    <div class="city">
+                        <div class="labels">
+                            <label class="city-label" for="city">City</label><label
+                                class="city-input-warning warning">Field
+                                cannot be empty</label>
+                        </div>
+                        <input type="text" class="city-input" name="city" id="city" placeholder="New York" required>
+                    </div>
+                    <div class="country">
+                        <div class="labels">
+                            <label class="country-label" for="county">Country</label><label
+                                class="country-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="text" class="country-input" name="country" id="country" placeholder="United States"
+                            required>
+                    </div>
+                </div>
+                <h3 class="payment-details-heading">PAYMENT DETAILS</h3>
+                <div class="payment-details">
+                    <div class="payment-method">
+                        <label for="payment-emoney" class="radio-label-emoney">
+                            <input type="radio" checked  name="payment-emoney" id="payment-emoney" required>
+                            <span>e-Money</span>
+                        </label>
+                            
+                        <label for="payment-cash-on-delivery" class="radio-label-cash-on-delivery">
+                            <input type="radio" name="payment-cash-on-delivery" id="payment-cash-on-delivery" required>
+                            <span>Cash on Delivery</span>
+                        </label>
+                    </div>
+                    <div class="e-money-number">
+                        <div class="labels">
+                            <label class="e-money-number-label" for="e-money-number">e-Money Number</label><label
+                                class="e-money-number-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="number" class="e-money-number-input" name="e-money-number" id="e-money-number"
+                            placeholder="2386541993" required>
+                    </div>
+                    <div class="e-money-pin">
+                        <div class="labels">
+                            <label class="e-money-pin-label" for="e-money-pin">e-Money PIN</label><label
+                                class="e-money-pin-input-warning warning">Field cannot be empty</label>
+                        </div>
+                        <input type="number" class="e-money-pin-input" name="e-money-pin" id="e-money-pin"
+                            placeholder="6891" required>
+                    </div>
+                    <div class="cash-on-delivery">
+                        <img src="assets/icons/icon-cash-on-delivery.svg" alt="cash-on-delivery-icon">
+                        <p>The ‘Cash on Delivery’ option enables you to pay in cash when our delivery courier arrives at
+                            your residence. Just make sure your address is correct so that your order will not be
+                            cancelled.</p>
+                    </div>
+                </div>
+                <div class="pay">
+                    <button>CONTINUE & PAY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <footer>
+            <div class="name-and-links">
+                <div class="name">
+                    <div class="footer-line"></div>
+                    <h1>audiophile</h1>
+                </div>
+                <div class="footer-page-links">
+                    <a href="index.html">HOME</a>
+                    <a href="headphone.html">HEADPHONES</a>
+                    <a href="speaker.html">SPEAKERS</a>
+                    <a href="earphone.html">EARPHONES</a>
+                </div>
+            </div>
+            <div class="about-end-soc-links">
+                <div class="about">
+                    <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
+                        and
+                        sound specialists who are devoted to helping you get the most out of personal audio. Come and
+                        visit
+                        our
+                        demo facility - we’re open 7 days a week.</p>
+                </div>
+                <div class="soc-links">
+                    <a href="#"><img src="assets/icons/fb.svg" alt="fb-icon"></a>
+                    <a href="#"><img src="assets/icons/twitter.svg" alt="twit-icon"></a>
+                    <a href="#"><img src="assets/icons/insta.svg" alt="insta-icon"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>Copyright 2021. All Rights Reserved</span>
+            </div>
+        </footer>
+    </section>
+
+    <div class="order-info-container">
+        <div class="order-info">
+            <img src="assets/icons/icon-check-mark.svg" alt="icon-check-mark">
+            <h1>THANK YOU <br> FOR YOUR ORDER</h1>
+            <p>You will receive en email confirmation shortly</p>
+            <button class="home-btn">Back To Home</button>
+        </div>
+    </div>
+
+    <div class="hidden-container"></div>
+
+    
+    <script src="javascript/checkout-page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+.first-section {
+    padding: 0;
+}
+
+/* Go back link style */
+
+.go-back {
+    margin: auto;
+    min-width: 1100px;
+    max-width: 1100px;
+    padding-block: 70px;
+}
+
+.go-back a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+}
+
+/* And off go back link style */
+
+
+/* Product info style */
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+    padding-bottom: 140px;
+}
+
+.image-container img {
+    height: 520px;
+    border-radius: 10px;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+.product-description.mark1 {
+    padding: 0;
+    padding-right: 120px;
+}
+
+.product-description span {
+    color: var(--orange);
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+}
+
+.product-description h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.product-description p {
+    color: rgb(163, 163, 163);
+}
+
+.add-cart {
+    padding-inline: 35px;
+    padding-block: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.add-cart:hover {
+    background-color: #f3b18d;
+}
+
+.price {
+    padding-block: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f1f1f1;
+    min-height: 30px;
+    min-width: 100px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.quantity .qty {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.quantity button {
+    background-color: #f1f1f1;
+    padding: 0;
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.quantity .minus {
+    margin-right: 10px;
+}
+
+.quantity .plus {
+    margin-left: 10px
+}
+
+.quantity button:hover {
+    background-color:  rgb(206, 206, 206);
+    color: var(--orange);
+}
+
+.product-feautures {
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.feautures h1 {
+    font-size: 30px;
+}
+
+.feautures {
+    max-width: 610px;
+}
+
+.feautures p {
+    color: rgb(163, 163, 163);
+    font-weight: 300;
+}
+
+.feautures .first-p {
+    padding-block: 30px;
+}
+
+.include {
+    padding-left: 150px;
+}
+
+.include h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .item {
+    color: rgb(163, 163, 163);
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.items .item .qty {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.product-images {
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    margin-bottom: 120px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-img {
+    min-height: 290px;
+    max-width: 445px;
+    border-radius: 10px;
+}
+
+.big-img {
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* And off product info style */
+
+
+/* Suggest cards style */
+
+.suggest-section {
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: auto;
+}
+
+.suggest-section h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.suggest-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.suggest-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggest-card h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.suggest-card button {
+    padding-inline: 35px;
+    padding-block: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.suggest-card button:hover {
+    background-color: #f3b18d;
+}
+
+.suggest-card img {
+    height: 320px;
+    min-width: 350px;
+    border-radius: 10px;
+}
+
+/* And off suggest cards style */
+
+.addcart-info {
+    display: none;
+    justify-content: flex-end;
+    padding-right: 320px;
+    margin-top: 30px;
+}
