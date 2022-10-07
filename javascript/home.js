@@ -121,7 +121,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
     function appearBackImg() {
         setTimeout(() => {
             mainHeadphone.style.opacity = '1';
-        }, 500);
+        }, 1000);
         setTimeout(() => {
             headphoneInfo.style.opacity = '1';
         }, 2000);
