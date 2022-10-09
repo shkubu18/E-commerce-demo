@@ -147,7 +147,7 @@
     .some-info-image img {
         max-height: 300px;
         width: 100%;
-        content: url(/assets/imgs/man-with-headphone.jpg);
+        content: url(../assets/imgs/man-with-headphone.jpg);
         object-fit: cover;
         object-position: center;
     }
