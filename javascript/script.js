@@ -144,3 +144,9 @@ if (document.body.contains(productName)) {
     firstSection.style.padding = '0';
 }
 
+const mainHeadphone = document.querySelector('.main-headphone');
+
+if (!firstSection.contains(mainHeadphone)) {
+    firstSection.style.minHeight = 'unset';
+}
+

@@ -84,7 +84,6 @@ if (window.matchMedia("(max-width: 680px)").matches) {
 const shoppingCartIcon = document.querySelector('.shopping-cart-icon');
 const itemQty = document.querySelector('.item-quantity');
 const cart = document.querySelector('.cart-of-items');
-const mainHeadphone = document.querySelector('.main-headphone');
 const hiddenContainer = document.querySelector('.hidden-container');
 const body = document.querySelector('body')
 const emptyCart = document.querySelector('.empty-cart');
@@ -95,8 +94,9 @@ shoppingCartIcon.addEventListener('click', () => {
     if (itemQty.style.display !== 'flex') {
         addCartInfo.style.display = 'flex';
         cart.style.display = 'flex';
+        hiddenContainer.style.display = 'flex';
+        hiddenContainer.style.opacity = '1';
         emptyCart.style.display = 'flex';
-        hiddenContainer.style.display = 'block';
         body.style.overflow = "hidden";
         mainHeadphone.style.marginTop = '-240px';
     }
@@ -107,6 +107,7 @@ clickBtn.addEventListener('click', () => {
     addCartInfo.style.display = 'none';
     emptyCart.style.display = 'none';
     hiddenContainer.style.display = 'none';
+    hiddenContainer.style.opacity = '0';
     body.style.overflow = "visible";
     mainHeadphone.style.marginTop = '0';
 })
