@@ -1,10 +1,10 @@
 /* Main headphone style */
 
 .main-headphone {
-    display: flex;
     justify-content: center;
     padding-bottom: 30px;
     transition: all 1.5s ease;
+    display: none;
 }
 
 .headphone-description {
@@ -13,6 +13,8 @@
     margin-right: 225px;
     opacity: 0;
     transition: all 2s ease-in-out;
+    flex-direction: column;
+    display: none;
 }
 
 .headphone-description span {

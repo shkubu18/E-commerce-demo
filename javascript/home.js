@@ -5,9 +5,11 @@ const headphoneImg = document.querySelector('.headphone-image img');
 window.addEventListener('load', appear);
 
 function appear() {
+    mainHeadphone.style.display = 'flex';
     setTimeout(() => {
         headphoneImg.style.opacity = '1';
     }, 500);
+    headphoneInfo.style.display = 'flex';
     setTimeout(() => {
         headphoneInfo.style.opacity = '1';
     }, 2000);

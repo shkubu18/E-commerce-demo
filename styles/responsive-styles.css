@@ -533,7 +533,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
     .first-section {
         min-height: 500px;
     }
@@ -549,7 +549,6 @@
         background-size: cover;
         background-position-y: -60px;
         background-size: 450px 450px;
-        display: none;
     }
 
     .headphone-description {
@@ -559,7 +558,6 @@
         margin-top: 50px;
         transform: translate(0);
         padding: 0;
-        display: none;
     }
 
     .headphone-description h1 {
