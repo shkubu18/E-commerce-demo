@@ -119,12 +119,14 @@ if (window.matchMedia("(max-width: 500px)").matches) {
     window.addEventListener('load', appearBackImg);
 
     function appearBackImg() {
+        mainHeadphone.style.display = 'flex';
         setTimeout(() => {
             mainHeadphone.style.opacity = '1';
         }, 1000);
+        headphoneInfo.style.display = 'flex';
         setTimeout(() => {
             headphoneInfo.style.opacity = '1';
-        }, 2000);
+        }, 1500);
     }
 }
 
