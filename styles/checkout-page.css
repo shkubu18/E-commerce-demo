@@ -2,6 +2,10 @@
     padding: 0;
 }
 
+#checkout-first-section {
+    min-height: unset;
+}
+
 .go-back {
     margin: auto;
     min-width: 1100px;
